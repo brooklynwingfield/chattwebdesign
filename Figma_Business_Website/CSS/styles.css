@@ -17,7 +17,7 @@ img {
     margin: 0 auto;
 }
 
-nav, header, section { 
+nav, header, section, #lower_area { 
     background-color: #F2F4F8;
 }
 
@@ -99,11 +99,6 @@ section {
     padding: 10px;
 }
 
-.col img {
-    width: 70%;
-}
-
-
 .column {
     margin: 10px;
     padding: 10px;
@@ -111,7 +106,12 @@ section {
 }
 
 .column img {
-    width: 80%;
+    width: 100%;
+}
+
+#lower_area {
+    padding: 10px;
+    display: flex;
 }
 
 footer {
@@ -151,17 +151,17 @@ footer {
         width: 200%;
     }
 
-    .col img {
-        width: 100%;
-    }
-
     .col_text {
         margin-top: 40px;
         margin-bottom: 40px;
     }
 
     .column img {
-        width: 70%;
+        width: 90%;
+    }
+
+    #lower_area img {
+        width: 100%;
     }
 }
 
@@ -179,8 +179,5 @@ footer {
     
     #multi_col img {
         width: 100%;
-    }
-    .col img {
-        width: 80%
     }
 }    
