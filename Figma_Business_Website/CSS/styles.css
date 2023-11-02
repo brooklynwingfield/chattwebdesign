@@ -32,49 +32,7 @@ li {
 a {
     color: black;
     text-decoration: none;
-}
-
-.navbar {
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-}
-
-.nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    font-size: 15px;
-}
-
-.nav-branding {
-    font-size: 25px;
-}
-
-.nav-link {
-    transition: 0.7s ease;
-}
-
-.nav-link:hover {
-    color: brown;
-}
-
-.hamburger {
-    display: none;
-    cursor: pointer;
-}
-
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: black;
+    font-size: 30px;
 }
 
  /* mobile styles */
@@ -128,6 +86,7 @@ header img {
 section {
     margin: 10px 0;
     padding: 10px;
+    display: flex;
 }
 
 
@@ -138,6 +97,10 @@ section {
 .col {
     margin: 10px 0;
     padding: 10px;
+}
+
+.col img {
+    width: 70%;
 }
 
 
@@ -162,10 +125,6 @@ footer {
 /* Tablet Styles */
 @media (min-width: 768px) {
 
-    .hamburger {
-        display: block;
-    }
-
     nav {
         padding: 20px;
     }
@@ -175,29 +134,9 @@ footer {
     }
 
     nav li a {
-        width: 100px;
+        width: 120px;
         border-radius: 10px;
     }
-
-    .nav-menu {
-        position:fixed;
-        left:-100%;
-        top:70px;
-        gap:0;
-        flex-direction: column;
-        background-color: #FAF9F4;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-    }
-
-    .nav-item {
-        margin: 16px 0;
-    }
-
-.nav-menu.active {
-    left: 0;
-}
 
     #multi_col {
         display: flex;
@@ -210,6 +149,10 @@ footer {
     .col {
         padding: 40px;
         width: 200%;
+    }
+
+    .col img {
+        width: 100%;
     }
 
     .col_text {
@@ -233,4 +176,11 @@ footer {
     .column img {
         width: 100%;
     }  
+    
+    #multi_col img {
+        width: 100%;
+    }
+    .col img {
+        width: 80%
+    }
 }    
