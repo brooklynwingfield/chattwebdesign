@@ -1,0 +1,74 @@
+body {
+    background-color:#0D0D0D;
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+}
+
+/* Classes */
+
+.navbar img {
+    width: 60%
+}
+
+/* IDs */
+
+#header_img {
+    background-image: url(../Images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#header {
+    width: 50%;
+}
+
+#welcome {
+    background-image: url(../Images/login.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#traveler {
+    background-image: url(../Images/traveler.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#wishing {
+    background-image: url(../Images/wish.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.modal-content {
+    background-color: #0D0D0D;
+}
+
+.modal-title, .modal-body {
+    color: white;
+}
+
+#anemoculus img {
+    width: 15%;
+}
+
+.card {
+    background-color: #0D0D0D;
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: #0D0D0D;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+@media (min-width: 1024px) {
+
+    #panel_bg {
+    width: 80%;
+}
+
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="Images/cropelements.gif" alt="Elements Gif"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="characters.html">Characters</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Locations
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="mondstadt.html">Mondstadt</a></li>
+                      <li><a class="dropdown-item" href="liyue.html">Liyue</a></li>
+                      <li><a class="dropdown-item" href="inazuma.html">Inazuma</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <button class="btn btn-outline-primary rounded-0 d-block" type="button">Download</button>
+            </div>
+          </nav>
+        <div id= "header_img" class="p-5 mb-4 bg-light rounded-0">
+            <div class="container-fluid py-5">
+                <img id="header" class="d-block mx-auto" src="Images/logo.png" alt="Cover Photo">
+                <button class="btn btn-primary rounded-0 mx-auto d-block mt-2" type="button">Learn More</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-12 py-3 text-center">
+                <a href="https://www.youtube.com/channel/UCiS882YPwZt1NfaM0gR0D9Q"><i class="fa-brands fa-youtube fs-2 p-4"></i></a>
+                <a href="https://www.instagram.com/genshinimpact/"><i class="fa-brands fa-instagram fs-2 p-4"></i></a>
+                <a href="https://www.tiktok.com/@genshinimpact_en"><i class="fa-brands fa-tiktok fs-2 p-4"></i></a>
+                <a href="https://twitter.com/genshinimpact"><i class="fa-brands fa-x-twitter fs-2 p-4"></i></a>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-4">
+                <h2 class="text-center">Open World Gameplay</h2>
+                <img class="img-fluid my-3 rounded-2" src="Images/openworld.jpg" alt="Open World">
+                <p>Genshin Impact allows users to experience a beautiful open world atmosphere.</p>
+            </div>
+            <div class="col-lg-4">
+                <h2 class="text-center">Fighting Bosses</h2>
+                <img class="img-fluid my-3 rounded-2" src="Images/mondstadtboss.jpg" alt="Mondstadt Boss Photo">
+                <p>Genshin Impact relies on a lot of fight sequences to progress the storyline and level up characters.</p>
+            </div>
+            <div class="col-lg-4">
+                <h2 class="text-center">Characters</h2>
+                <img class="img-fluid my-3 rounded-2" src="Images/characters.jpg" alt="Characters">
+                <p>With currently over 70+ characters (and counting), users can hope to unlock their wanted characters through the wishing system.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-12">
+                <button class="btn btn-primary rounded-0 mx-auto d-block" type="button">More News</button>
+            </div>
+        </div>
+        <hr>
+        <div id= "welcome" class="p-5 mb-4 bg-light rounded-0">
+            <div id="panel_bg" class="container-fluid p-5 bg-dark bg-opacity-75 rounded-3">
+                <h3>Welcome to Genshin Impact</h3>
+                <p>Genshin Impact is an action role-playing game developed by miHoYo.</p>
+                <button class="btn btn-primary rounded-0 mx-auto d-block mt-2" type="button" data-bs-toggle="modal" data-bs-target="#reg-modal">Learn More</button>
+            </div>
+            <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal-title">Learn More</h5>
+                            <button class="modal-button" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Welcome: Genshin Impact became available for Android, IOS, the Playstation 4, and Windows on September 28, 2020. It was released onto Playstation 5 on April 28, 2021.</p>
+                            <p>Travelers: The travelers are intersteller adventurers. At the beginning of the game, they are separated, so they begin to search the seven nations of Teyvat trying to find the other.</p>
+                            <p>Wishing: There's timed character and weapon banners to wish on, as well as the constant standard banner. Users can pull 3-star, 4-star, or 5-star characters or weapons from said banners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id= "traveler" class="p-5 mb-4 bg-light rounded-0">
+            <div id="panel_bg" class="container-fluid p-5 bg-dark bg-opacity-75 rounded-3">
+                <h3>Travelers</h3>
+                <p>When beginning gameplay, users choose from two twin travelers to play as: Lumine or Aether.</p>
+                <button class="btn btn-primary rounded-0 mx-auto d-block mt-2" type="button" data-bs-toggle="modal" data-bs-target="#reg-modal">Learn More</button>
+            </div>
+        </div>
+        <hr>
+        <div id= "wishing" class="p-5 mb-4 bg-light rounded-0">
+            <div id="panel_bg" class="container-fluid p-5 bg-dark bg-opacity-75 rounded-3">
+                <h3>Wishing System</h3>
+                <p>This gacha system lets users use in-game currency to wish on characters and weapons that they can utilize in their gameplay.</p>
+                <button class="btn btn-primary rounded-0 mx-auto d-block mt-2" type="button" data-bs-toggle="modal" data-bs-target="#reg-modal">Learn More</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-12 py-5 text-center">
+                &copy; miHoYo - Genshin Impact 2023
+            </div>
+        </div>
+        <hr>
+    </div>
+</body>
+</html>
