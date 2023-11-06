@@ -18,6 +18,30 @@ body {
     background-position: center;
 }
 
+#character_img {
+    background-image: url(../Images/characterbanner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#mondstadt_img {
+    background-image: url(../Images/mondstadt.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#liyue_img {
+    background-image: url(../Images/liyueoverview.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#inazuma_img {
+    background-image: url(../Images/inazumashrine.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 #header {
     width: 50%;
 }
